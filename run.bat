@@ -30,7 +30,8 @@ if not exist "%JAR%" (
 echo Compiling...
 if exist out rmdir /s /q out
 mkdir out
-dir /s /b src\*.java > sources.txt
+type nul > sources.txt
+for /r src %%f in (*.java) do echo "%%f" >> sources.txt
 javac -encoding UTF-8 -d out -cp "lib\*" @sources.txt
 set "RC=%errorlevel%"
 del sources.txt
