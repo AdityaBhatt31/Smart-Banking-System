@@ -1,0 +1,15 @@
+# Local credentials and encryption key
+/config.properties
+
+# Generated build output and local downloads
+/out/
+/lib/*.jar
+/sources.txt
+*.log
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
