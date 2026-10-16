@@ -1,4 +1,4 @@
-# Smart Banking v3
+# Smart Banking 
 
 A core-banking demo with a real MySQL database, customer KYC (mobile, Aadhaar, PAN, address),
 a double-entry ledger, maker-checker controls and an audit trail.
